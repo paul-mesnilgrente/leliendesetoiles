@@ -20,6 +20,24 @@ body {
   text-align: center;
 }
 
+.formulaire {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #25442f;
+  color: white;
+
+  font-style: none;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: .4rem;
+
+  transition: transform .2s;
+}
+
+.formulaire:hover {
+  transform: scale(1.5);
+}
+
 .image {
   max-width: 80vw;
   display: block;
